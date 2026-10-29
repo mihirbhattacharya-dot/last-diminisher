@@ -12,7 +12,16 @@
    firebaseConfig block from the Firebase console, from "const" to "};"
    (Project settings → General → Your apps → Web app).
    ===================================================================== */
-const firebaseConfig = null;
+const firebaseConfig = {
+  apiKey: "AIzaSyAw5wTsVvjGwjY0e3FQqGt2I1B8UIiuZFE",
+  authDomain: "last-diminisher.firebaseapp.com",
+  databaseURL: "https://last-diminisher-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "last-diminisher",
+  storageBucket: "last-diminisher.firebasestorage.app",
+  messagingSenderId: "634037607102",
+  appId: "1:634037607102:web:c484b4016f348f14b21cef",
+  measurementId: "G-WJ9X0ESRH2"
+};
 /* ===================================================================== */
 window.FIREBASE_CONFIG = typeof firebaseConfig === 'undefined' ? null : firebaseConfig;
 window.LD_CONFIG_OK = true;
